@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    color: dimgray;
+}
+
 .name-head {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .top-section {
@@ -21,12 +26,15 @@ section {
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img {
-    width: 50%;
+    width: 100%;
+    padding-top: 20px;
 }
 
 .link-btn {
@@ -38,4 +46,10 @@ section {
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
+}
+
+.dream-big {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
